@@ -80,3 +80,17 @@ class MyCircularQueue {
         return status;
     }
 }
+public class Main {
+  public static void main(String[] args) {
+    MyCircularQueue queue = new MyCircularQueue(5);
+    
+    
+    System.out.println(queue.enQueue(1));
+    System.out.println(queue.enQueue(2));
+    System.out.println(queue.enQueue(3));
+    System.out.println(queue.enQueue(4));
+    System.out.println(queue.enQueue(5));
+    System.out.println(queue.isFull());
+    System.out.println(queue.Front() + " " + queue.Rear());
+  }
+}
