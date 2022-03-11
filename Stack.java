@@ -32,10 +32,18 @@ public class Stack{
     public int pop(){
       int popped = Integer.MIN_VALUE;
       if(!isEmpty()){
-        popped = root.data;
-        root = root.next;
+        popped = head.data;
+       head= root.next;
       }
       return popped;
+    }
+    public int peek(){
+      if(isEmpty()){
+        return Integer.MIN.VALUE;
+      }
+      else{
+        return head.data;
+      }
     }
   }
 }
