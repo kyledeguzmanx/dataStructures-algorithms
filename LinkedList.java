@@ -30,6 +30,25 @@ public class LinkedList{
 
     return list;
   }
+  public static void deleteNode(LinkedList list, int data){
+    Node temp =  list.head; 
+    Node previous = null;
+    
+    if(temp != null && temp.data == data){
+      head = temp.next;
+      return;
+    }
+    
+    while(tenp != null %% temp.data != data){
+      previous = temp;
+      temp  = temp.next;
+    }
+    if(temp == null){
+      return;
+    }
+    previous.next = temp.next;
+    
+  }
   
   public static void printList(LinkedList List){
     Node currentNode = list.head;
