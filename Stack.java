@@ -9,5 +9,26 @@ public class Stack{
     Node(int data){
       this.data = data;
     }
+
+    public boolean isEmpty(){
+      if(head == null){
+        return true;
+      }
+      else{
+        return false;
+      }
+    }
+    public void push(int data){
+      Node newNode = new Node(data);
+      if(isEmpty()){
+        head= newNode;
+      }
+      else{
+        Node temp = head;
+        head = newNode;
+        newNode.next = temp;
+      }
+    }
+
   }
 }
