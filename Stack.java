@@ -29,6 +29,13 @@ public class Stack{
         newNode.next = temp;
       }
     }
-
+    public int pop(){
+      int popped = Integer.MIN_VALUE;
+      if(!isEmpty()){
+        popped = root.data;
+        root = root.next;
+      }
+      return popped;
+    }
   }
 }
