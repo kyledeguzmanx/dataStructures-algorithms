@@ -11,4 +11,10 @@ class Node{
 
 class BinaryTree{
   
+  BinaryTree(int key){ //constructor w input 
+    root = new Node(key);
+  } 
+  BinaryTree(){ //constructor without input
+    root = null;
+  }
 }
