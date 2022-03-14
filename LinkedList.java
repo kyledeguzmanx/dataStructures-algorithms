@@ -39,7 +39,7 @@ public class LinkedList{
       return;
     }
     
-    while(tenp != null %% temp.data != data){
+    while(tenp != null && temp.data != data){
       previous = temp;
       temp  = temp.next;
     }
