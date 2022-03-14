@@ -8,3 +8,7 @@ class Node{
     right = null;
   }
 }
+
+class BinaryTree{
+  
+}
