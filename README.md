@@ -4,3 +4,4 @@ Queue [Notes](https://paper.dropbox.com/doc/Queue-Stack--Bdc4lIuiRQC4S9fMCZwg_L7
 Linked List [Notes](https://paper.dropbox.com/doc/Linked-List--Bdfx46vm~30YstZ3JJVp9GS0Ag-6q9jfPNY90qt4QSUV9HX1)  
 Stack [Notes](https://paper.dropbox.com/doc/Stack--BdjtGejm3XfNri50FKcwiIbqAg-cHKj6b00mWzy552f4wrEl)  
 Binary Tree [Notes](https://paper.dropbox.com/doc/Binary-Tree--Bdr08EhozGssSNSDUfj9OproAg-dGCSbiHJo56NiWh0HBavp)  
+Algorithms [Nptes](https://paper.dropbox.com/doc/Sorting-Algorithms--Bdvf8~lW98LTQyGZdjG6oWdmAg-exTgXiMF42x6lJO2VhwL9)
