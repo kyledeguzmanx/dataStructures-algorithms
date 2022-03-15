@@ -13,7 +13,7 @@ public class LinkedList{
     }
   }
   
-  public status LinkedList insert(LinkedList list, int data){
+  public static LinkedList insert(LinkedList list, int data){
     Node new_node = new Node(data);
     new_node.next = null;
 
