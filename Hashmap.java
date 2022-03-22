@@ -13,6 +13,9 @@ public class Hashmap{
     studentId.put("Tommy", 23134);
     studentId.put("Gale", 231212);
     studentId.put("Harper",12342);
+    
+    studentId.get("Harper");
+    studentId.remove("Gale");
   }
 }
 
