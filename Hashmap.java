@@ -16,6 +16,8 @@ public class Hashmap{
     
     studentId.get("Harper");
     studentId.remove("Gale");
+    
+    studentId.size();
   }
 }
 
