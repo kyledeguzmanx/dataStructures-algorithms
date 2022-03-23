@@ -10,22 +10,31 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        
+        if(list1 == null && list2 == null) 
+            return null;  //null checking
+        if(list1 == null)
+            return list2;
+        if(list2 == null) 
+            return list1;
     
         ListNode head = new ListNode();
-        ListNode one = list1;
-        ListNode two = list2;
 
         //establish head;
-        if(one.val < two.val){
-            head = one.val;     
-        }
-        else{
-            head = two.val;
-        }
-        
-        while(one.next != null & two.next != null){
-            ListNode newNode = new ListNode();
+        if(list1.val < list2.val){
+            head = list1;
+            list1 = list1.next;
             
         }
+        else{
+            head = list2;
+            list2 = list2.next;
+        }
+        
+        head.next = mergeTwoLists(list1, list2);
+        return head;
     }
 }
+/*
+we use recursion to break a problem into smaller problems. First we set the head. Then we set the next child through recursion
+*/
